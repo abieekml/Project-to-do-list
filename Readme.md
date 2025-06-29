@@ -22,28 +22,7 @@ Aplikasi To-Do List sederhana yang dibuat menggunakan PHP, MySQL, dan JavaScript
 
 ## Instalasi
 
-1. *Clone atau download aplikasi*
-   bash
-   git clone [repository-url]
-   cd todo-app
-   
-
-2. *Setup Database*
-   - Buat database MySQL
-   - Import file sql/todo_database.sql
-   - Atau jalankan script SQL secara manual
-
-3. *Konfigurasi Database*
-   - Edit file config/database.php
-   - Sesuaikan pengaturan database:
-     php
-     private $host = 'localhost';
-     private $db_name = 'todo_app';
-     private $username = 'root';
-     private $password = '';
-     
-
-4. *Jalankan Aplikasi*
+1. *Jalankan Aplikasi*
    - Letakkan folder aplikasi di document root web server
    - Akses melalui browser: http://localhost/todo-app
 
@@ -62,22 +41,22 @@ Aplikasi To-Do List sederhana yang dibuat menggunakan PHP, MySQL, dan JavaScript
 
 
 todo-app/
-├── index.php              # File utama aplikasi
+├── index.php              
 ├── config/
-│   └── database.php       # Konfigurasi database
+│   └── database.php  
 ├── includes/
-│   ├── header.php         # Header HTML
-│   └── footer.php         # Footer HTML
+│   ├── header.php         
+│   └── footer.php        
 ├── classes/
-│   └── TodoManager.php    # Class untuk mengelola todo
+│   └── TodoManager.php 
 ├── assets/
 │   ├── css/
-│   │   └── style.css      # Stylesheet
+│   │   └── style.css     
 │   └── js/
-│       └── script.js      # JavaScript
+│       └── script.js     
 ├── sql/
-│   └── todo_database.sql  # Script SQL
-└── README.md             # Dokumentasi
+│   └── todo_database.sql 
+└── README.md            
 
 
 ## Teknologi yang Digunakan
